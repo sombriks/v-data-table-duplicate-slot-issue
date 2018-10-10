@@ -1,31 +1,5 @@
 # v-data-table-duplicate-slot-issue
 
-## Project setup
+When you provide :search to v-data-table and use a custom header it throws an error about something duplicated header slot
 
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Run your tests
-
-```
-npm run test
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
+![error header slot](slot-header-duplicate.png)
